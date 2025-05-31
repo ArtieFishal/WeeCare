@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 96.1%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 0 91% 65%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 122 39% 49%;
+    --secondary-foreground: 210 40% 98%;
+    --accent: 210 100% 52%;
+    --accent-foreground: 210 40% 98%;
+    --highlight: 54 100% 62%;
+    --highlight-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 0 91% 65%;
+    --radius: 0.75rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 0 91% 75%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 122 39% 59%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --accent: 210 100% 68%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --highlight: 54 100% 72%;
+    --highlight-foreground: 222.2 84% 4.9%;
+    --muted: 217.2 32.6% 25%;
+    --muted-foreground: 215 20.2% 75%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 25%;
+    --input: 217.2 32.6% 25%;
+    --ring: 0 91% 75%;
+  }
+}
+ 
+@layer base {
+  * {
+    border-color: hsl(var(--input));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom playful typography */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+/* Animation for interactive elements */
+.interactive-element {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interactive-element:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styling for chapter cards */
+.chapter-card {
+  background-color: hsl(var(--card));
+  color: hsl(var(--card-foreground));
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  border-left: 4px solid hsl(var(--primary));
+}
+
+.chapter-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom styling for toggle switch */
+.toggle-switch {
+  position: relative;
+  display: inline-flex;
+  height: 1.5rem;
+  width: 2.75rem;
+  align-items: center;
+  border-radius: 9999px;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.toggle-switch:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px hsl(var(--ring)), 0 0 0 4px hsl(var(--background));
+}
+
+/* Custom styling for toggle thumb */
+.toggle-thumb {
+  pointer-events: none;
+  display: block;
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 9999px;
+  background-color: hsl(var(--background));
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.toggle-thumb[data-state="checked"] {
+  transform: translateX(1.25rem);
+}
+
+.toggle-thumb[data-state="unchecked"] {
+  transform: translateX(0);
+}
+
+/* Dark mode improvements */
+.dark .bg-popover {
+  background-color: hsl(var(--popover));
+}
+
+.dark .text-popover-foreground {
+  color: hsl(var(--popover-foreground));
+}
+
+.dark .border {
+  border-color: hsl(var(--border));
+}
+
+/* Improve visibility for tables in dark mode */
+.dark table {
+  --tw-border-opacity: 0.8;
+}
+
+/* Template Manager Modal Improvements */
+.template-manager-dialog {
+  background-color: hsl(var(--background));
+  border: 2px solid hsl(var(--border));
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Fix selection boxes in dark mode */
+.dark [role="combobox"],
+.dark [role="listbox"],
+.dark [role="option"] {
+  background-color: hsl(var(--popover));
+  color: hsl(var(--popover-foreground));
+}
+
+.dark select,
+.dark option {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* Fix for selection boxes in both modes */
+[role="combobox"],
+[role="listbox"],
+[role="option"] {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* Fix for mobile touch events */
+@media (max-width: 768px) {
+  button, a, input, select {
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    touch-action: manipulation;
+  }
+  
+  /* Increase touch target size for mobile */
+  .sidebar button {
+    padding: 12px;
+    min-height: 44px;
+  }
+  
+  /* Remove hover effects that can interfere with touch */
+  .interactive-element:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Add active state for touch feedback */
+  button:active, a:active {
+    opacity: 0.8;
+  }
+}

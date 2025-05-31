@@ -1,0 +1,518 @@
+# Tennessee Regulatory Requirements for Child Care Centers
+
+## Scope and Purpose
+
+(1)   Scope of Rules. These rules are applicable to child care agencies subject to licensing by the
+             Department of Human Services as defined by T.C.A. §§ 71-3-501 et seq. Any conflict
+             between this chapter and any other rules of the Department concerning the licensing
+             procedures and regulations governing these agencies or the rules and licensing and appeal
+             procedures for these agencies shall be resolved by reference to these rules.
+
+       (2)   Applicable Requirements. These rules are organized as follows: The requirements set forth in
+             1240-04-01-.01 through 1240-04-01-.19 apply to all licensed categories of child care
+             agencies unless otherwise noted within the rules. The requirements set forth in 1240-04-01-
+             .20 through 1240-04-01-.23 apply to the specific class of care identified in each section.
+
+       (3)   Purpose of Licensing.
+
+             (a)   The purpose of licensing is the protection of children while under the care of child care
+                   agencies licensed by the Department of Human Services and to promote
+                   developmentally appropriate practices that enhance early learning and foster parental
+                   engagement.
+
+             (b)   The basic requirements in these rules seek to maintain the adequate health, safety,
+                   and supervision of children while in a licensed care setting.
+
+Authority: T.C.A. §§ 4-5-201, et seq.; 4-5-202; 71-1-105; 71-1-105(a)(5) and (a)(12); 71-3-501, et seq.;
+and 71-3-502(a)(2); and Acts 2000, Ch. 981, §§ 8 and 14. Administrative History: Original rule certified
+June 10, 1974. Amendment filed March 16, 1978; effective April 17, 1978. Amendment filed March 17,
+1980; effective June 29, 1980. Repeal and new rule filed December 6, 1983; effective January 5, 1984.
+Amendment filed October 9, 1987; effective January 27, 1988. Repeal and new rule filed April 22, 1992;
+effective June 6, 1992. Amendment filed April 30, 1996; effective July 14, 1996. Amendment filed
+September 29, 2000; effective December 13, 2000. Amendments filed May 1, 2018; effective July 30,
+2018. Amendments filed March 31, 2022; effective June 29, 2022.
+
+
+June, 2022 (Revised)                                    1
+LICENSURE RULES FOR CHILD CARE AGENCIES                                             CHAPTER 1240-04-01
+
+## Definitions
+
+(1)   Active play. Activity that is appropriate for a child’s age and abilities, involves moving the
+           whole body and makes the heart beat faster, and includes any activity that involves moderate
+           to vigorous bursts of high energy.
+
+     (2)   Administrative Closure. Closure of an incomplete application after notification of deficiencies.
+
+     (3)   Administrative Hearing. A hearing that is held under the Uniform Administrative Procedures
+           Act, Title 4, Chapter 5, Part 3 of the Tennessee Code Annotated, rather than a court of law,
+           that is conducted by an administrative law judge from the Secretary of State’s Office or by an
+           administrative hearing officer of the Department of Human Services. The purpose of the
+           hearing is to allow a child care agency the opportunity to challenge legal enforcement actions
+           taken by the Department.
+
+     (4)   Ambulation. The ability to walk from place to place.
+
+     (5)   Applicant. The owner or owner’s authorized representative who is required, pursuant to the
+           provisions of these rules, to sign the application for a license.
+
+     (6)   Auxiliary staff. Full- and part-time employees of the child care agency who do not provide
+           caregiving services, including but not limited to custodial, food service and maintenance staff.
+
+     (7)   Child or Children. A person or persons under eighteen (18) years of age.
+
+     (8)   Child Care. As defined by T.C.A. § 71-3-501, the provision of supervision and protection, and
+           meeting, at a minimum, the basic needs of a child for less than twenty-four (24) hours a day.
+
+     (9)   Child Care Agency or Agency. A place or facility, regardless of whether it is currently
+           licensed, that is operated as a “family child care home”, a “group child care home”, a “child
+           care center”, or a “drop-in child care center”, that provides child care for three (3) or more
+           hours per day to five (5) or more children who are not related to the primary educator.
+
+     (10) Child Care Agency Board of Review. A committee established to review actions initiated by
+          the Department of Human Services and the Department of Children’s Services to deny,
+          revoke, or otherwise limit any license, except for summary suspension of, or probation
+          involving, a license; any civil penalties imposed by the Department of Human Services; or
+          any safety plan implemented by the Department of Human Services that will be, or has been,
+          in effect ninety (90) days or more.
+
+     (11) Child Care Center. Any place or facility operated by any person or entity that provides child
+          care for three (3) or more hours per day for at least thirteen (13) children who are not related
+          to the primary educator.
+
+     (12) Child Development Associate (CDA). A person who has earned an early childhood
+          educational credential granted by the National Council for Professional Recognition. This
+          credential is only recognized, for purposes of these rules, if issued by the above named
+          organization.
+
+     (13) Commissioner. The Commissioner of the Department of Human Services.
+
+     (14) Communicable Disease. An illness due to an infectious agent which is transmitted directly or
+          indirectly to a well person from an infected person.
+
+
+
+
+June, 2022 (Revised)                                2
+LICENSURE RULES FOR CHILD CARE AGENCIES                                             CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.02, continued)
+      (15) Continuous License. A license issued to a child care agency following its provisional licensure
+           period and after the agency has demonstrated its ability to attain and maintain compliance
+           with all licensing laws and regulations.
+
+      (16) Curriculum. A planned program of activities and experiences that promotes learning and
+           social and emotional development and includes the content that children are to learn, the
+           processes through which children achieve the identified curricular goals, what educators do
+           to help children achieve these goals, and the context in which teaching and learning occur.
+
+      (17) Department (DHS). The Tennessee Department of Human Services and its authorized
+           representatives.
+
+      (18) Developmentally Appropriate Practice (DAP). Principles and guidelines that are appropriate
+           to each child’s age and developmental status and responsive to the social and cultural
+           context in which they live.
+
+      (19) Director. The on-site child care center staff member who has responsibility for the overall
+           operation of the center.
+
+      (20) Drop-In Child Care Center.
+
+            (a)   A place or facility operated by any person or entity providing child care, at the same
+                  time, for fifteen (15) or more children, who are not related to the primary educator, for
+                  short periods of time, not to exceed fourteen (14) hours per week and for not more than
+                  seven (7) hours per day for any individual child during regular working hours (Monday-
+                  Friday, 6:00 a.m. to 6:00 p.m.).
+
+            (b)   A drop-in center may provide child care during evenings (after 6:00 p.m.) and
+                  weekends (Friday, 6:00 p.m - Sunday, 10:00 p.m.) so long as the drop-in center
+                  provides no more than a total of twenty (20) hours per week, exclusive of snow days
+                  when the school of the affected child is closed.
+
+            (c)   Training requirements for the staff of this class of child care agency shall be limited to
+                  basic health and safety precautions and the detection and reporting of child abuse and
+                  neglect for children in care.
+
+            (d)   Drop-in centers that provide child care for no more than two (2) hours per day with a
+                  maximum of ten (10) hours per week without compensation, while the parent/guardian
+                  or other custodian is engaged in short-term activities on the premises of the
+                  organization, shall register as providing casual care and shall not be deemed to be a
+                  drop-in center or regulated as a drop-in center.
+
+      (21) Educator. An adult individual, whether paid or unpaid, including the Primary Educator, who is
+           responsible for meeting the supervision, protection, and basic needs of the child, and who is
+           used to meet the adult:child ratios required by these rules. For the purposes of these rules
+           the term educator is equivalent to caregiver as defined by T.C.A. § 71-3-501.
+
+      (22) Extended Care. Child care services offered between the hours of 6:00 p.m. and 6:00 a.m.
+           Monday through Friday, and weekend child care.
+
+      (23) Family Child Care Home. Any place or facility which is operated by any person or entity that
+           provides child care for three (3) or more hours per day for at least five (5) children, but not
+           more than seven (7) children who are not related to the primary educator.
+
+      (24) Field Trip. Any off-site activity which occurs away from the general premises of the child care
+           agency’s licensed facility.
+
+
+
+June, 2022 (Revised)                                3
+LICENSURE RULES FOR CHILD CARE AGENCIES                                              CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.02, continued)
+
+     (25) Five (5) Panel Test. A drug test for marijuana, cocaine, methamphetamine, amphetamine,
+          and opiates that uses a specimen of the individual’s urine.
+
+     (26) Group Child Care Home. Any place or facility operated by any person or entity that provides
+          child care for three (3) or more hours per day for at least eight (8) children who are not
+          related to the primary educator, but not more than twelve (12) children or fifteen (15) children
+          if approved for three (3) additional school-agers.
+
+     (27) High School Diploma. A document recognizing graduation from an accredited institution,
+          public or private, based on the issuing state’s or country’s required number of academic
+          credits and includes passing a GED test or equivalent as defined by Tennessee law.
+
+     (28) Inaccessible. Inaccessible means that the item is located in a place that is unable to be
+          reached by children in that classroom. This location may vary, depending on what age the
+          children are in the classroom where the item is located, such as being placed on a high shelf
+          in an infant room or locked in a locked cabinet in a preschool room.
+
+     (29) Infant. A child who is six (6) weeks through twelve (12) months of age or until ambulation.
+
+     (30) Insurance Terms.
+
+           (a)   General Liability Insurance. Provides coverage for legal liability of businesses arising
+                 out of business operations for bodily or personal injury and property damage.
+
+           (b)   Auto Liability Insurance. Provides coverage if an insured is legally liable for bodily injury
+                 or property damage caused by an accident arising out of ownership or operation of an
+                 automobile.
+
+           (c)   Medical Payment Insurance. Provides coverage for necessary medical expenses
+                 regardless of who has been assigned fault.
+
+     (31) Licensee. The owner, to whom a license to operate a child care agency is issued.
+
+     (32) Licensed Capacity. The designated maximum number of children permitted in the care and
+          supervision of a licensed child care agency as determined by the Department based upon
+          available indoor space, age of children, adult:child ratios, and group size.
+
+     (33) Owner. The individual or entity who has legal and administrative responsibility for the
+          management and control of a child care agency.
+
+     (34) Physical Restraint. The use of body contact by staff with a child/youth to restrict freedom of
+          movement or normal access to his or her body.
+
+     (35) Pre-school Child. A child who is at least thirty-one (31) months of age and who has not
+          entered kindergarten.
+
+     (36) Primary Educator. The adult on site at a family or group child care home who is directly
+          responsible for care, education, and supervision of children in a child care home and for the
+          daily operation of a child care home. For the purpose of these rules, the term primary
+          educator is equivalent to primary caregiver as referenced in T.C.A. § 71-3-501.
+
+     (37) Provisional license. A license issued to a child care agency for one hundred twenty (120)
+          days for the purpose of allowing the child care agency to demonstrate their ability to attain
+          and maintain compliance with all licensing laws and regulations. Such provisional license
+          may continue in effect, unless suspended if the Department fails to issue a continuous
+
+
+
+June, 2022 (Revised)                                 4
+LICENSURE RULES FOR CHILD CARE AGENCIES                                            CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.02, continued)
+           license after the one hundred twenty (120) day period if the Department determines an
+           extension is necessary to allow the child care agency to demonstrate ability to maintain
+           compliance with licensing laws and regulations.
+
+     (38) Related. Children, step-children, grandchildren, step-grandchildren, siblings of the whole or
+          half-blood, step-siblings, nieces, nephews or foster children of the primary educator.
+
+     (39) Restricted license. A license which, either at the time of issuance, or during the license’s
+          existence, is reduced in its operational authority so that the child care agency’s ability to
+          provide certain child care related services are limited because the Department has
+          determined that one or more areas of the child care agency’s operations are not in
+          compliance with child care laws or regulations or the child care agency’s operations are, or
+          have, posed a risk to the health, safety or welfare of children in the agency’s care or the
+          agency’s operations pose the potential of such risk. A restricted license may also be imposed
+          by the Child Care Agency Board of Review as part of its review of the licensing status of a
+          child care agency in the same manner and for the same reasons as such a license is issued
+          or imposed by the Department. A restricted license may be appealed to the Child Care
+          Agency Board of Review.
+
+     (40) Safety Plan. A mandatory plan applicable to a child care agency as a result of an
+          investigation. A safety plan may require, but is not limited to, the exclusion or restriction of
+          any individuals from access to children, the closure or restriction of any part of the child care
+          agency, the modification or elimination of services at the child care agency, the re-inspection
+          of the child care agency, the training of child care agency management, staff or volunteers.
+
+     (41) School-Age Child. A child who has entered kindergarten through seventeen (17) years of
+          age. A child may be considered school-age during the summer immediately preceding their
+          entry into kindergarten.
+
+     (42) Screen time. Instances in which television, videos, video games, cell phones, computers, and
+          other digital devices are used, excluding adult-directed presentations using screens (ex.
+          Power Point, slideshow, Smart/Whiteboards) provided such media are educational and used
+          interactively with children.
+
+     (43) Seclusion: The confinement of a child/youth alone in a room or an area where the child/youth
+          is physically prevented from leaving. Seclusion includes, but is not limited to, instances in
+          which a child/youth is confined by a locked or closed door.
+
+     (44) Serious Incident. Serious incident includes but is not limited to: any incident involving serious
+          injuries; any reports made to the Department of Children’s Services and/or law enforcement;
+          anytime it is necessary to call 911; any incident that may result in staff exclusion from child
+          care per 1240-04-01-.07; any transportation accidents and/or moving violations including
+          traffic citations (such as a driver cited for speeding) that occur when children are in a child
+          care agency operated vehicle; and any child or adult fatality at the child care agency.
+
+     (45) Serious Injury. An injury that requires treatment from an outside medical professional or
+          facility such as an emergency medical technician, physician, health clinic, or hospital.
+
+     (46) Specialized Services. Services provided to children with special needs by individuals having
+          extensive training or expertise in a particular field such as speech/language therapy, physical
+          therapy, play therapy, mental health counseling, or health care treatments, etc.
+
+     (47) Staff. Full- and part-time paid educators and employees of the child care agency.
+
+     (48) Substitute. Paid or unpaid persons who are replacements for regular staff.
+
+
+
+
+June, 2022 (Revised)                                5
+LICENSURE RULES FOR CHILD CARE AGENCIES                                           CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.02, continued)
+      (49) Sugar sweetened beverages. Beverages with added sweeteners (such as flavored milk, soft
+           drinks, fruit drinks with added sugar, sports drinks, and energy drinks).
+
+      (50) Time Out. A means of correcting undesirable behavior by removing the child from the
+           environment, placing the child in a quiet place away from the group for a few minutes, and
+           then talking about the problem.
+
+      (51) TDHS eLicensing System: The system of record for all child care agencies licensed by the
+           Department of Human Services as of the effective date of these rules.
+
+      (52) TNPAL: Tennessee Professional Archive of Learning (TNPAL) is the central repository and
+           system of record for all child care training and professional development.
+
+      (53) Toddler. A child who is thirteen (13) months through thirty (30) months of age.
+
+      (54) Unsupervised Access to a Child. When a person who is not an approved staff person has
+           access to a child and no other approved staff person is present with the child and
+           supervising.
+
+      (55) Volunteer. A person who provides services for a child care agency without payment and who
+           is used to supplement the regular staff.
+
+Authority: T.C.A. §§ 4-5-201, et seq.; 4-5-202; 71-1-105; 71-1-105(a)(5) and (a)(12); 71-3-501, et seq.;
+71-3-502(a)(2); and 71-3-502(a)(4)(B); and Acts 2000, Ch. 981, §§ 3(a)(4) and 14. Administrative
+History: Original rule certified June 10, 1974. Amendment filed March 16, 1978; effective April 17, 1978.
+Repeal and new rule filed December 6, 1983; effective January 5, 1984. Amendment filed October 9,
+1987; effective January 27, 1988. Repeal and new rule filed April 22, 1992; effective June 6, 1992.
+Amendment filed July 1, 1993; effective September 14, 1993. Amendment filed November 18, 1999;
+effective January 31, 2000. Amendment filed September 29, 2000; effective December 13, 2000.
+Amendment filed August 30, 2001; effective November 13, 2001. Amendment filed November 21, 2002;
+effective February 4, 2003. Emergency rules filed July 1, 2016; effective through December 28, 2016.
+Amendments filed September 28, 2016; effective December 27, 2016. Amendments filed May 1, 2018;
+effective July 30, 2018. Amendments filed March 31, 2022; effective June 29, 2022.
+
+## Specific Requirements for Child Care Centers
+
+(1)   Required Adult:Child Ratios.
+
+           (a)   Adult:child ratios in this paragraph shall be maintained by the child care agency while
+                 the children are on the premises of the child care agency, including outdoors or on the
+                 playground.
+
+           (b)   Adult:Child Ratio Requirements for Child Care Centers.
+
+                 1.    Adult:child ratios and group sizes in child care centers may exceed requirements
+                       set by the rule of the Department of Human Services by up to ten percent (10%),
+                       rounded to the nearest whole number, no more frequently than three (3) days per
+                       week.
+
+                       (i)   At no time shall the licensed capacity be exceeded.
+
+
+
+
+June, 2022 (Revised)                              82
+LICENSURE RULES FOR CHILD CARE AGENCIES                                               CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.22, continued)
+                       (ii)  Infant and toddler groups may never exceed the required ratios and group
+                             sizes.
+
+                         (iii)   The Department may terminate this variance in individual cases under
+                                 provisions for issuance of a restricted license pursuant to T.C.A. § 71-3-
+                                 502.
+
+                         (iv)    Child care centers that use the variance may, at the Department’s
+                                 discretion, be required to obtain fire approval prior to enrolling additional
+                                 children.
+
+                 2.      When more than twelve (12) children are present on the premises, a second
+                         adult shall be physically available on the premises.
+
+           (c)   Child Care Ratio and Group Size Charts.
+
+                 1.      Chart 1 – Age Grouping.
+
+                                     Age of Children                 Adult:Child Ratio Maximum Group Size
+                      Six (6) weeks – Fifteen (15) months                   1:4                8
+                      Twelve (12) – Thirty (30) months                      1:6               12
+                      Twenty-four (24) – Thirty-five (35) months            1:7               14
+                      Three (3) years                                       1:9               18
+                      Four (4) years                                       1:13               20
+                      Five (5) years                                       1:16               20
+                      School-age                                           1:20             No Max
+
+                 2.      Chart 2 – Age Grouping.
+
+                                     Age of Children                 Adult:Child Ratio Maximum Group Size
+                      Six (6) weeks – Thirty (30) months                    1:5               10
+                      Two (2) – Four (4) years                              1:8               16
+                      Two and one-half (2½) –Three (3) years
+                                                                            1:9                   18
+                      (Thirty (30) – Forty-seven (47) months)
+                      Two and one-half (2½) – Five (5) years                1:11                  20
+                      Two and one-half (2½) – Twelve (12) years             1:10                  10
+                      Three (3) – Five (5) years                            1:13                  22
+                      Four (4) – Five (5) years                             1:16                  24
+                      Five (5) – Twelve (12) years                          1:20                No Max
+
+                 3.      Chart 3 – Allowable Combined Grouping and Adult:Child Ratio Chart for first/last
+                         hour and one-half (½) of each day only:
+
+                                   Age of Children                   Adult:Child Ratio Maximum Group Size
+                      Two and one-half (2½) – Five (5) years               1:10               10
+                      Three (3) – Twelve (12) years                        1:15               15
+                      Four (4) – Twelve (12) years                         1:20               20
+
+           (d)   Assignment of Children to Groups.
+
+                 1.      Each child shall be on roll in a defined group and assigned to that group with a
+                         specific educator(s).
+
+
+
+
+June, 2022 (Revised)                                  83
+LICENSURE RULES FOR CHILD CARE AGENCIES                                             CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.22, continued)
+                 2.    Maximum group size requirements, as established in subparagraph (c) above,
+                        shall be maintained at all times with the exception of meals served in common
+                        dining rooms, napping in common nap rooms, or outdoors on the playground.
+
+                 3.    Infants shall have a separate space and shall never be grouped with children
+                       older than thirty (30) months of age.
+
+                 4.    Extended Care. Children age thirteen (13) months and older may be grouped
+                       together while sleeping in overnight care.
+
+                 5.    Children shall be kept with the same group throughout the day.
+
+                 6.    Children shall not be promoted to a new group until required based upon the age
+                       and developmental needs of the child.
+
+                 7.    Groups excluding infants and toddlers may be combined for short periods for a
+                       special activity (e.g., special assembly, visiting performers or community helpers,
+                       etc.) of no more than sixty (60) minutes duration per day as long as adult:child
+                       ratios are met.
+
+                 8.    Pre-school and school-age groups may be combined for up to one and one-half
+                       (1½) hours at the beginning of the day and for up to one and one-half (1½) hours
+                       at the end of the day as set forth in Adult:Child Ratio Chart 3 in 1240-04-01-
+                       .22(1)(c)3.
+
+                 9.    Groups of children may never be mixed as part of the regular routine or
+                       operation.
+
+                       Exception: Pre-school and school-age groups may be mixed based upon
+                       emergencies, holidays or low attendance days.
+
+                 10.   Child care agencies shall define grouping for each classroom.
+
+           (e)   Each group shall have a designated classroom with enough space for the entire group.
+
+           (f)   Child care centers shall provide written lesson plans for each group of children.
+
+           (g)   When more than twelve (12) children in first grade and above are present, a separate
+                 educator, a separate group, a separate space, and a separate program shall be
+                 provided for them.
+
+     (2)   Licensed Capacity of Physical Space.
+
+           (a)   The maximum number of children who may be present inside a physical space, i.e., the
+                 child care agency’s “licensed capacity”, shall be determined in accordance with the
+                 minimum square footages set forth in this subparagraph.
+
+           (b)   The Department may, in its discretion, and as determined to be reasonably necessary
+                 to maintain the health and safety of the children in care, restrict the child care agency’s
+                 licensed capacity below the maximum set forth in these rules.
+
+           (c)   A minimum of thirty (30) square feet of usable indoor play space shall be provided for
+                 each child in each classroom.
+
+           (d)   Each nap room shall contain a minimum of thirty (30) square feet of floor space per
+                 child.
+
+
+
+June, 2022 (Revised)                               84
+LICENSURE RULES FOR CHILD CARE AGENCIES                                             CHAPTER 1240-04-01
+
+(Rule 1240-04-01-.22, continued)
+
+           (e)   Locations providing teen parenting, occupational/career, and technical education
+                 classes shall have a separate space for the group, with a minimum of thirty-five (35)
+                 square feet of usable play space per child that is apart from the classroom space for
+                 students. The designated separate space may be located in the same room and
+                 divided by movable barriers less than four (4) feet in height.
+
+           (f)   The following are not counted toward required square footage:
+
+                 1.    Restrooms;
+
+                 2.    Halls;
+
+                 3.    Kitchen;
+
+                 4.    Office space; or
+
+                 5.    Any space used by cribs or large pieces of furniture.
+
+           (g)   Rooms with sufficient floor space may be divided by a barrier at least four (4) feet in
+                 height for use by more than one (1) group if each area is adequately equipped and
+                 arranged and that each group shall have the security of a stable classroom space.
+
+           (h)   Adequate Plumbing Facilities. The child care agency shall have the minimum number
+                 of functional toilets and hand-washing stations in accordance with the:
+
+                 1.    Requirements of any applicable local ordinances and regulations;
+
+                 2.    Proximity of the plumbing to the classroom(s); and
+
+                 3.    Ages of the children served.
+
+     (3)   Meals and Snacks. Any person responsible for preparing meals or snacks shall not be
+           included in the adult:child ratio while preparing meals/snacks or doing related tasks, such as
+           washing dishes.
+
+     (4)   Schedules and Routines. In an infant or toddler room with more than one (1) educator, each
+           educator shall be responsible for providing consistent care for specific infants and toddlers.
+           Consistent care includes, but is not limited to, planning and record keeping for the child,
+           communication, general interaction with and routine care of the child.
+
+     (5)   Interim Director. Following the issuance of a license, a child care center may operate without
+           an on-site director for a period of no more than sixty (60) days total within the licensing year.
+           A qualified person, as determined by the Department, shall be in charge in the interim.
+
+Authority: T.C.A. §§ 4-5-201, et seq.; 71-1-105(a)(5); 71-3-501, et seq.; and 71-3-502(a)(2).
+Administrative History: Original rules filed May 1, 2018; effective July 30, 2018. Amendments filed
+October 5, 2018; effective January 3, 2019. Amendments filed March 31, 2022; effective June 29, 2022.

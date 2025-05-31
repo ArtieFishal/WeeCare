@@ -1,0 +1,68 @@
+# Tennessee Childcare Website - Enhancement Tasks
+
+## Current Status
+- [x] Enhanced shopping list with age-specific items
+- [x] Added master shopping list functionality
+- [x] Fixed print functionality for shopping lists
+- [x] Enhanced meal planning for center-wide and individual groups
+- [x] Renamed "Walmart Ordering" tab to "Ordering"
+- [x] Implemented manual ordering functionality
+- [x] Added 50+ preset grocery items
+- [x] Add more hot meal options for breakfast, lunch, and dinner
+- [x] Implement custom meal template CRUD functionality
+- [x] Update meal planning UI to support template selection
+- [x] Validate hot meal and template features
+- [x] Deploy updated version
+- [x] Fix template visibility issues across all chapters
+- [x] Fix dark mode styling for pull-downs and text boxes
+- [x] Fix specific Meal Template Manager modal contrast and visibility
+- [x] Fix selection box backgrounds in dark mode
+- [x] Reverted to 7:53 PM build (rolled back "View All Templates" modal changes)
+- [x] Re-implemented "View All Templates" modal to match "Create New Template" modal structure
+- [x] Implement Center Info tab with child count by age group
+- [x] Add Tennessee CACFP requirements section to Center Info tab
+- [x] Create center summary with visual age distribution chart
+- [x] Integrate child count data with meal planning and shopping calculations
+- [x] Implement parent/child portal combining parent communication and child assessment
+- [x] Create comprehensive child profile management system
+- [x] Implement parent communication features (messaging, announcements, calendar)
+- [x] Add Tennessee-specific child assessment tools
+- [x] Integrate portal with attendance, meal planning, and activities
+- [x] Deploy parent/child portal to production
+- [x] Make Accreditation Comparison component functional and interactive
+- [x] Implement side-by-side comparison of accreditation options
+- [x] Add cost calculator based on center information
+- [x] Create requirements checklist with Tennessee-specific highlights
+- [x] Implement recommendation engine based on user priorities
+- [x] Ensure all features comply with Tennessee childcare laws
+- [x] Replace Facility Design with Admissions and Weekly Billing
+- [x] Implement centralized data store for child information
+- [x] Create integrated attendance tracking system
+- [x] Connect admissions data with meal planning for automatic head counts
+- [x] Implement weekly billing system with attendance integration
+- [x] Create unified interface for all childcare management functions
+- [x] Deploy integrated childcare management system
+
+## Notes
+- User has a kitchen and serves mostly hot meals
+- Snacks are for snack time only
+- Added 10 new hot dinner options compliant with Tennessee CACFP guidelines
+- Implemented functionality to create, edit, and save custom meal templates
+- Templates are easily selectable in the meal planning interface
+- All meal options comply with Tennessee CACFP guidelines
+- Center Info tab provides child count management for ordering and regulation purposes
+- Child count data is used to calculate shopping list quantities
+- Center summary shows total children and age distribution visualization
+- Tennessee CACFP requirements section includes meal pattern requirements, documentation needs, and compliance resources
+- Site initially deployed to https://mzlvkgsl.manus.space
+- Site redeployed with UI fixes to https://pfmxlkvy.manus.space
+- Site redeployed with template manager and selection box fixes to https://edtbgbgd.manus.space
+- Site redeployed with SSL fix at https://owjfhawi.manus.space
+- Site temporarily deployed with consistent modal structure to https://qfeweszd.manus.space
+- Site reverted to 7:53 PM build at https://tbzbyoyn.manus.space
+- Site redeployed with targeted "View All Templates" modal fix at https://sauqydwo.manus.space
+- Final version with Center Info tab implementation at https://jmaychxj.manus.space
+- Parent/child portal implementation deployed at https://zabhebaz.manus.space
+- Parent/child portal includes comprehensive child information management, parent communication, Tennessee-specific assessments, and integration with other center systems
+- All child information complies with Tennessee regulations
+- Portal allows parents to enter and save child information that can be accessed throughout the project

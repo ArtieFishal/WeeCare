@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Care Center Guide</title>
+  <style>
+    :root {
+      --background: #ffffff;
+      --foreground: #333333;
+      --primary: #ff6b6b;
+      --primary-foreground: #ffffff;
+      --secondary: #4ecdc4;
+      --secondary-foreground: #ffffff;
+      --accent: #ffe66d;
+      --accent-foreground: #333333;
+      --muted: #f1f5f9;
+      --muted-foreground: #64748b;
+      --card: #ffffff;
+      --card-foreground: #333333;
+      --border: #e2e8f0;
+      --input: #e2e8f0;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --destructive: #ef4444;
+      --ring: #3b82f6;
+      
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: #1e293b;
+      --foreground: #f8fafc;
+      --primary: #ff6b6b;
+      --primary-foreground: #ffffff;
+      --secondary: #4ecdc4;
+      --secondary-foreground: #ffffff;
+      --accent: #ffe66d;
+      --accent-foreground: #333333;
+      --muted: #334155;
+      --muted-foreground: #94a3b8;
+      --card: #1e293b;
+      --card-foreground: #f8fafc;
+      --border: #334155;
+      --input: #334155;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --destructive: #ef4444;
+      --ring: #3b82f6;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--background);
+      color: var(--foreground);
+      line-height: 1.6;
+      transition: background-color 0.3s, color 0.3s;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    header {
+      background-color: var(--card);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 1rem;
+    }
+
+    .site-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--muted);
+      color: var(--muted-foreground);
+      font-size: 1.25rem;
+      transition: background-color 0.3s;
+    }
+
+    .theme-toggle:hover {
+      background-color: var(--accent);
+      color: var(--accent-foreground);
+    }
+
+    main {
+      padding: 2rem 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      .grid {
+        grid-template-columns: 1fr 3fr;
+      }
+    }
+
+    .chapter-list {
+      background-color: var(--card);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+
+    .chapter-list-header {
+      padding: 1rem;
+      background-color: var(--muted);
+      transition: background-color 0.3s;
+    }
+
+    .chapter-list-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .chapter-items {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chapter-item {
+      display: flex;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      text-align: left;
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      width: 100%;
+      color: var(--foreground);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .chapter-item:hover {
+      background-color: var(--muted);
+    }
+
+    .chapter-item.active {
+      background-color: rgba(255, 107, 107, 0.1);
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    .chapter-icon {
+      font-size: 1.5rem;
+      margin-right: 0.75rem;
+    }
+
+    .chapter-content {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: var(--card);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
+    }
+
+    .chapter-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .chapter-description {
+      color: var(--muted-foreground);
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .prose {
+      color: var(--foreground);
+    }
+
+    .prose p {
+      margin-bottom: 1rem;
+    }
+
+    .interactive-element {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .interactive-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .interactive-title-icon {
+      margin-right: 0.5rem;
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .resource-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .resource-item {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      transition: border-color 0.3s;
+    }
+
+    .resource-icon {
+      font-size: 2rem;
+      margin-right: 0.75rem;
+    }
+
+    .resource-title {
+      font-weight: 500;
+    }
+
+    .resource-description {
+      font-size: 0.875rem;
+      color: var(--muted-foreground);
+    }
+
+    footer {
+      background-color: var(--muted);
+      padding: 2rem 0;
+      margin-top: 3rem;
+      transition: background-color 0.3s;
+    }
+
+    .footer-content {
+      text-align: center;
+    }
+
+    .footer-text {
+      color: var(--muted-foreground);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .footer-link {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+
+    .copyright {
+      font-size: 0.875rem;
+      color: var(--muted-foreground);
+      margin-top: 1rem;
+    }
+
+    /* Interactive Elements */
+    .checklist {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem;
+      background-color: var(--muted);
+      border-radius: var(--radius);
+      transition: background-color 0.3s;
+    }
+
+    .checklist-item.checked {
+      background-color: rgba(16, 185, 129, 0.2);
+    }
+
+    .checklist-checkbox {
+      margin-right: 0.5rem;
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+
+    .timeline-item {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .timeline-marker {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .timeline-dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: var(--primary);
+    }
+
+    .timeline-line {
+      width: 2px;
+      height: 100%;
+      background-color: var(--border);
+      flex-grow: 1;
+      margin: 4px 0;
+    }
+
+    .timeline-content {
+      flex-grow: 1;
+      padding: 1rem;
+      background-color: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+
+    .timeline-title {
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+
+    .comparison-table th {
+      background-color: var(--muted);
+      font-weight: 500;
+    }
+
+    .comparison-table tr:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.02);
+    }
+
+    .dark .comparison-table tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    .rating {
+      color: var(--warning);
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+      background-color: var(--primary);
+      color: var(--primary-foreground);
+      border: none;
+      border-radius: var(--radius);
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: var(--primary);
+      opacity: 0.9;
+    }
+
+    .button-secondary {
+      background-color: var(--secondary);
+      color: var(--secondary-foreground);
+    }
+
+    .button-secondary:hover {
+      background-color: var(--secondary);
+      opacity: 0.9;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid var(--input);
+      border-radius: var(--radius);
+      background-color: var(--background);
+      color: var(--foreground);
+      transition: border-color 0.3s;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--ring);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+    }
+
+    .form-select {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid var(--input);
+      border-radius: var(--radius);
+      background-color: var(--background);
+      color: var(--foreground);
+      transition: border-color 0.3s;
+    }
+
+    .form-select:focus {
+      outline: none;
+      border-color: var(--ring);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">
+          <span style="margin-right: 0.5rem;">🏫</span>
+          Child Care Center Guide
+        </h1>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="grid">
+        <aside>
+          <div class="chapter-list">
+            <div class="chapter-list-header">
+              <h2 class="chapter-list-title">Chapters</h2>
+            </div>
+            <div class="chapter-items">
+              <button class="chapter-item active" data-chapter="1">
+                <span class="chapter-icon">📋</span>
+                <span>Regulatory Requirements</span>
+              </button>
+              <button class="chapter-item" data-chapter="2">
+                <span class="chapter-icon">⏱️</span>
+                <span>Licensing Process</span>
+              </button>
+              <button class="chapter-item" data-chapter="3">
+                <span class="chapter-icon">🏅</span>
+                <span>Accreditation Options</span>
+              </button>
+              <button class="chapter-item" data-chapter="4">
+                <span class="chapter-icon">📍</span>
+                <span>Location Selection</span>
+              </button>
+              <button class="chapter-item" data-chapter="5">
+                <span class="chapter-icon">🏗️</span>
+                <span>Facility Design</span>
+              </button>
+              <button class="chapter-item" data-chapter="6">
+                <span class="chapter-icon">🧸</span>
+                <span>Equipment & Materials</span>
+              </button>
+              <button class="chapter-item" data-chapter="7">
+                <span class="chapter-icon">👥</span>
+                <span>Staffing & Hiring</span>
+              </button>
+              <button class="chapter-item" data-chapter="8">
+                <span class="chapter-icon">🎓</span>
+                <span>Staff Qualifications</span>
+              </button>
+              <button class="chapter-item" data-chapter="9">
+                <span class="chapter-icon">📚</span>
+                <span>Curriculum Development</span>
+              </button>
+              <button class="chapter-item" data-chapter="10">
+                <span class="chapter-icon">⏰</span>
+                <span>Daily Scheduling</span>
+              </button>
+              <button class="chapter-item" data-chapter="11">
+                <span class="chapter-icon">🎮</span>
+                <span>Activity Planning</span>
+              </button>
+              <button class="chapter-item" data-chapter="12">
+                <span class="chapter-icon">📊</span>
+                <span>Child Assessment</span>
+              </button>
+              <button class="chapter-item" data-chapter="13">
+                <span class="chapter-icon">🩺</span>
+                <span>Health & Safety</span>
+              </button>
+              <button class="chapter-item" data-chapter="14">
+                <span class="chapter-icon">🍎</span>
+                <span>Nutrition & Meals</span>
+              </button>
+              <button class="chapter-item" data-chapter="15">
+                <span class="chapter-icon">💬</span>
+                <span>Parent Communication</span>
+              </button>
+              <button class="chapter-item" data-chapter="16">
+                <span class="chapter-icon">💰</span>
+                <span>Financial Management</span>
+              </button>
+              <button class="chapter-item" data-chapter="17">
+                <span class="chapter-icon">📣</span>
+                <span>Marketing Strategies</span>
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        <div class="chapter-content">
+          <!-- Chapter 1 Content -->
+          <div id="chapter-1" class="chapter-section">
+            <div class="card">
+              <h2 class="chapter-title">Regulatory Requirements</h2>
+              <p class="chapter-description">Understanding and navigating the regulatory landscape for child care centers.</p>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Chapter Content</h3>
+              <div class="prose">
+                <p>
+                  This chapter provides comprehensive guidance on regulatory requirements.
+                  Explore the interactive element below to apply concepts from this chapter to your
+                  child care center planning and operations.
+                </p>
+                
+                <p>
+                  The content in this section is designed to help child care center directors and
+                  administrators implement best practices in regulatory compliance.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Interactive Tool</h3>
+              <div class="interactive-element">
+                <h4 class="interactive-title">
+                  <span class="interactive-title-icon">📋</span>
+                  Regulation Compliance Checklist
+                </h4>
+                <p>Use this interactive checklist to track your compliance with key regulations.</p>
+                
+                <div class="checklist">
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-1" class="checklist-checkbox">
+                    <label for="reg-1">Staff-to-child ratio requirements</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-2" class="checklist-checkbox">
+                    <label for="reg-2">Background check requirements for all staff</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-3" class="checklist-checkbox">
+                    <label for="reg-3">Health and safety standards</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-4" class="checklist-checkbox">
+                    <label for="reg-4">Building and facility requirements</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-5" class="checklist-checkbox">
+                    <label for="reg-5">Staff qualification requirements</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-6" class="checklist-checkbox">
+                    <label for="reg-6">Program requirements</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-7" class="checklist-checkbox">
+                    <label for="reg-7">Record-keeping requirements</label>
+                  </div>
+                  <div class="checklist-item">
+                    <input type="checkbox" id="reg-8" class="checklist-checkbox">
+                    <label for="reg-8">Emergency preparedness plan</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Resources</h3>
+              <div class="resource-grid">
+                <div class="resource-item">
+                  <span class="resource-icon">📄</span>
+                  <div>
+                    <h4 class="resource-title">Printable Worksheet</h4>
+                    <p class="resource-description">Download and print for offline use</p>
+                  </div>
+                </div>
+                <div class="resource-item">
+                  <span class="resource-icon">🔗</span>
+                  <div>
+                    <h4 class="resource-title">Additional Resources</h4>
+                    <p class="resource-description">External links and references</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chapter 2 Content -->
+          <div id="chapter-2" class="chapter-section hidden">
+            <div class="card">
+              <h2 class="chapter-title">Licensing Process</h2>
+              <p class="chapter-description">Step-by-step guide to obtaining and maintaining your child care license.</p>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Chapter Content</h3>
+              <div class="prose">
+                <p>
+                  This chapter provides comprehensive guidance on the licensing process.
+                  Explore the interactive element below to apply concepts from this chapter to your
+                  child care center planning and operations.
+                </p>
+                
+                <p>
+                  The content in this section is designed to help child care center directors and
+                  administrators navigate the licensing process efficiently.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Interactive Tool</h3>
+              <div class="interactive-element">
+                <h4 class="interactive-title">
+                  <span class="interactive-title-icon">⏱️</span>
+                  License Application Timeline
+                </h4>
+                <p>Track your progress through the licensing process with this interactive timeline.</p>
+                
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title">Initial Research (1-2 weeks)</h5>
+                      <p>Research state licensing requirements and regulations</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title">Pre-Application (2-4 weeks)</h5>
+                      <p>Attend orientation, complete required training</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title">Application Submission (1 week)</h5>
+                      <p>Submit application forms and pay fees</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <div class="timeline-dot"></div>
+                      <div class="timeline-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title">Facility Preparation (4-12 weeks)</h5>
+                      <p>Prepare facility to meet all requirements</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <div class="timeline-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                      <h5 class="timeline-title">Inspections & Approval (2-6 weeks)</h5>
+                      <p>Pass all required inspections and receive license</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Resources</h3>
+              <div class="resource-grid">
+                <div class="resource-item">
+                  <span class="resource-icon">📄</span>
+                  <div>
+                    <h4 class="resource-title">Printable Worksheet</h4>
+                    <p class="resource-description">Download and print for offline use</p>
+                  </div>
+                </div>
+                <div class="resource-item">
+                  <span class="resource-icon">🔗</span>
+                  <div>
+                    <h4 class="resource-title">Additional Resources</h4>
+                    <p class="resource-description">External links and references</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chapter 3 Content -->
+          <div id="chapter-3" class="chapter-section hidden">
+            <div class="card">
+              <h2 class="chapter-title">Accreditation Options</h2>
+              <p class="chapter-description">Exploring different accreditation paths to enhance your center's credibility.</p>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Chapter Content</h3>
+              <div class="prose">
+                <p>
+                  This chapter provides comprehensive guidance on accreditation options.
+                  Explore the interactive element below to apply concepts from this chapter to your
+                  child care center planning and operations.
+                </p>
+                
+                <p>
+                  The content in this section is designed to help child care center directors and
+                  administrators understand and pursue appropriate accreditation.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Interactive Tool</h3>
+              <div class="interactive-element">
+                <h4 class="interactive-title">
+                  <span class="interactive-title-icon">🏅</span>
+                  Accreditation Comparison Tool
+                </h4>
+                <p>Compare different accreditation options to find the best fit for your center.</p>
+                
+                <table class="comparison-table">
+                  <thead>
+                    <tr>
+                      <th>Accreditation</th>
+                      <th>Focus Areas</th>
+                      <th>Time to Complete</th>
+                      <th>Cost Range</th>
+                      <th>Recognition</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>NAEYC</td>
+                      <td>Curriculum, Teaching, Assessment, Family Engagement</td>
+                      <td>12-18 months</td>
+                      <td>$1,500-$3,500+</td>
+                      <td><span class="rating">★★★★★</span></td>
+                    </tr>
+                    <tr>
+                      <td>NECPA</td>
+                      <td>Health & Safety, Administration, Staff Development</td>
+                      <td>6-12 months</td>
+                      <td>$1,000-$2,500</td>
+                      <td><span class="rating">★★★★☆</span></td>
+                    </tr>
+                    <tr>
+                      <td>AdvancED</td>
+                      <td>Leadership, Learning, Resource Utilization</td>
+                      <td>12-24 months</td>
+                      <td>$2,000-$4,000</td>
+                      <td><span class="rating">★★★★☆</span></td>
+                    </tr>
+                    <tr>
+                      <td>NAFCC</td>
+                      <td>Family Child Care Specific Standards</td>
+                      <td>6-12 months</td>
+                      <td>$500-$1,500</td>
+                      <td><span class="rating">★★★★☆</span></td>
+                    </tr>
+                    <tr>
+                      <td>COA</td>
+                      <td>Administration, Family Support, Program Quality</td>
+                      <td>12-18 months</td>
+                      <td>$1,500-$3,000</td>
+                      <td><span class="rating">★★★★☆</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Resources</h3>
+              <div class="resource-grid">
+                <div class="resource-item">
+                  <span class="resource-icon">📄</span>
+                  <div>
+                    <h4 class="resource-title">Printable Worksheet</h4>
+                    <p class="resource-description">Download and print for offline use</p>
+                  </div>
+                </div>
+                <div class="resource-item">
+                  <span class="resource-icon">🔗</span>
+                  <div>
+                    <h4 class="resource-title">Additional Resources</h4>
+                    <p class="resource-description">External links and references</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chapter 17 Content -->
+          <div id="chapter-17" class="chapter-section hidden">
+            <div class="card">
+              <h2 class="chapter-title">Marketing Strategies</h2>
+              <p class="chapter-description">Promoting your child care center and building enrollment.</p>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Chapter Content</h3>
+              <div class="prose">
+                <p>
+                  This chapter provides comprehensive guidance on marketing strategies.
+                  Explore the interactive element below to apply concepts from this chapter to your
+                  child care center planning and operations.
+                </p>
+                
+                <p>
+                  The content in this section is designed to help child care center directors and
+                  administrators effectively market their centers and build enrollment.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Interactive Tool</h3>
+              <div class="interactive-element">
+                <h4 class="interactive-title">
+                  <span class="interactive-title-icon">📣</span>
+                  Marketing Strategies Planner
+                </h4>
+                <p>Develop effective marketing strategies for your child care center.</p>
+                
+                <div class="form-group">
+                  <label class="form-label">Marketing Goal</label>
+                  <select class="form-select">
+                    <option value="enrollment">Increase Enrollment</option>
+                    <option value="retention">Improve Retention</option>
+                    <option value="awareness">Build Brand Awareness</option>
+                    <option value="quality">Highlight Program Quality</option>
+                    <option value="community">Community Engagement</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label class="form-label">Budget Range</label>
+                  <select class="form-select">
+                    <option value="low">Limited Budget (Under $1,000)</option>
+                    <option value="medium" selected>Moderate Budget ($1,000-$5,000)</option>
+                    <option value="high">Substantial Budget ($5,000+)</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label class="form-label">Timeframe</label>
+                  <select class="form-select">
+                    <option value="month">1 Month (Short-term)</option>
+                    <option value="quarter" selected>3 Months (Quarterly)</option>
+                    <option value="year">12 Months (Annual)</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label class="form-label">Recommended Strategies</label>
+                  <div class="checklist">
+                    <div class="checklist-item">
+                      <input type="checkbox" id="strat-1" class="checklist-checkbox" checked>
+                      <label for="strat-1">Referral Program</label>
+                    </div>
+                    <div class="checklist-item">
+                      <input type="checkbox" id="strat-2" class="checklist-checkbox" checked>
+                      <label for="strat-2">Open House Events</label>
+                    </div>
+                    <div class="checklist-item">
+                      <input type="checkbox" id="strat-3" class="checklist-checkbox">
+                      <label for="strat-3">Digital Advertising</label>
+                    </div>
+                    <div class="checklist-item">
+                      <input type="checkbox" id="strat-4" class="checklist-checkbox">
+                      <label for="strat-4">SEO Optimization</label>
+                    </div>
+                    <div class="checklist-item">
+                      <input type="checkbox" id="strat-5" class="checklist-checkbox" checked>
+                      <label for="strat-5">Community Partnerships</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <button class="button">Generate Marketing Plan</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <h3 class="section-title">Resources</h3>
+              <div class="resource-grid">
+                <div class="resource-item">
+                  <span class="resource-icon">📄</span>
+                  <div>
+                    <h4 class="resource-title">Printable Worksheet</h4>
+                    <p class="resource-description">Download and print for offline use</p>
+                  </div>
+                </div>
+                <div class="resource-item">
+                  <span class="resource-icon">🔗</span>
+                  <div>
+                    <h4 class="resource-title">Additional Resources</h4>
+                    <p class="resource-description">External links and references</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          Essential Strategies for Running a Successful Child Care Center
+        </p>
+        <div class="footer-links">
+          <a href="#" class="footer-link">About</a>
+          <a href="#" class="footer-link">Resources</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <p class="copyright">
+          © <span id="current-year">2025</span> Child Care Center Guide. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // Theme toggle functionality
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    
+    // Check for saved theme preference or use system preference
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+      body.classList.add('dark');
+      themeToggle.textContent = '☀️';
+    } else {
+      themeToggle.textContent = '🌙';
+    }
+    
+    themeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      
+      if (body.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.textContent = '☀️';
+      } else {
+        localStorage.setItem('theme', 'light');
+        themeToggle.textContent = '🌙';
+      }
+    });
+
+    // Chapter navigation
+    const chapterItems = document.querySelectorAll('.chapter-item');
+    const chapterSections = document.querySelectorAll('.chapter-section');
+    
+    chapterItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const chapterId = item.getAttribute('data-chapter');
+        
+        // Update active chapter in navigation
+        chapterItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        
+        // Show selected chapter content
+        chapterSections.forEach(section => {
+          section.classList.add('hidden');
+        });
+        document.getElementById(`chapter-${chapterId}`).classList.remove('hidden');
+      });
+    });
+
+    // Interactive elements functionality
+    const checklistItems = document.querySelectorAll('.checklist-item');
+    
+    checklistItems.forEach(item => {
+      const checkbox = item.querySelector('input[type="checkbox"]');
+      
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+          item.classList.add('checked');
+        } else {
+          item.classList.remove('checked');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
